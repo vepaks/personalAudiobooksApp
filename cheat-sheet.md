@@ -14,3 +14,7 @@
     1. add nav bar to body
 1. Create a new component
     1. `ng generate component home`
+   2. `ng generate component login`
+   3. `ng generate component register`
+   4. `ng generate component add-book`
+   5. `ng generate component book`
