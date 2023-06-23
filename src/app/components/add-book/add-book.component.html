@@ -1,1 +1,6 @@
-<p>add-book works!</p>
+
+<form (submit)="addBook()" method="POST" >
+  <input type="text" placeholder="Title" [(ngModel)]="bookTitle" [ngModelOptions]="{ standalone: true }" required>
+  <input type="text" placeholder="Author" [(ngModel)]="bookAuthor" [ngModelOptions]="{ standalone: true }" required>
+  <button type="submit">Add Book</button>
+</form>

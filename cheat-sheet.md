@@ -18,3 +18,11 @@
    3. `ng generate component register`
    4. `ng generate component add-book`
    5. `ng generate component book`
+1. Add @angular/fire 
+    1. `npm install firebase @angular/fire --save`
+   2. `ng build`
+    3. `ng serve`
+4. Create environment.ts file
+    1. ng g environment
+    1. add firebase config in environment.ts
+
